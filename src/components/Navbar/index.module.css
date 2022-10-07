@@ -1,0 +1,26 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+}
+header a img {
+    width: 200px;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    /* margin-left: 60px; */
+}
+
+header nav a {
+    margin-right: 60px;
+    font-size: 24px;
+    color: #FF6060;
+}
+
+header nav a:hover,
+header nav a:active {
+    /* line-height: 34px; */
+    border-bottom: 1px solid #FF6060;
+}
