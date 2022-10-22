@@ -1,26 +1,45 @@
-header {
+.nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     height: 90px;
 }
-header a img {
+.navLogo {
     width: 200px;
     position: absolute;
     left: 0%;
     top: 0%;
-    /* margin-left: 60px; */
+    margin-left: 40px;
 }
 
-header nav a {
-    margin-right: 60px;
+.navLink {
+    /* margin-right: 15px; */
     font-size: 24px;
     color: #FF6060;
 }
+.navLink:nth-child(1) {
+    margin-right: 50px;
+}
 
-header nav a:hover,
-header nav a:active {
+.navLink:hover,
+.navLink:active {
     /* line-height: 34px; */
     border-bottom: 1px solid #FF6060;
+}
+
+@media all and (max-width: 1000px) {
+    .nav {
+        height: 70px;
+    }
+    .navLogo {
+        width: 150px;
+        margin-left: 20px;
+    }
+    .navLink {
+        font-size: 18px;
+    }
+    .navLink:nth-child(1) {
+        margin-right: 30px;
+    }
 }

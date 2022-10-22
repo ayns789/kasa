@@ -1,0 +1,39 @@
+.errorContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .errorName {
+    margin: 0;
+    font-size : 288px;
+    color: #FF6060;
+  }
+  
+  .errorParag {
+    font-size : 36px;
+    color: #FF6060;
+    text-align: center;
+  }
+  
+  .errorRelink {
+    font-size : 18px;
+    color: #FF6060;
+    border-bottom: 1px solid #FF6060;
+  }
+
+  @media all and (max-width: 1000px) {
+    .errorName {
+        margin-top: 1em;
+        font-size: 150px;
+    }
+    .errorParag {
+        margin-top: 0em;
+        font-size: 22px;
+    }
+    .errorRelink {
+        margin-top: 5em;
+        font-size: 18px;
+    }
+  }

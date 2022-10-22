@@ -1,13 +1,13 @@
 import React from 'react';
-import './index.module.css';
+import styles from './index.module.css';
 import { Link } from 'react-router-dom';
 
 const Card = (props) => {
   return (
-    <div className='card'>
-      <Link to={`/lodging/${props.appartement.id}`}>
-        <h3>{props.appartement.title}</h3>
-        <img src={props.appartement.cover} alt='appartement' />
+    <div className={styles.cardContent}>
+      <Link to={`/lodging/${props?.id}`}>
+        <h3 className={styles.cardTitle}>{props?.title}</h3>
+        <img src={props?.cover} className={styles.cardImg} alt='appartement' />
       </Link>
     </div>
   );

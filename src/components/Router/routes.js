@@ -3,7 +3,7 @@ import Home from '../../Pages/home';
 import Lodging from '../../Pages/lodging';
 import Error from '../../Pages/error';
 
-const routerData = [
+const routes = [
   {
     path: '',
     element: <Home />,
@@ -15,9 +15,9 @@ const routerData = [
     title: 'about',
   },
   {
-    path: 'lodging',
+    path: 'lodging/:id',
     element: <Lodging />,
-    title: 'lodging',
+    title: 'lodging/:id',
   },
   {
     path: '*',
@@ -26,4 +26,4 @@ const routerData = [
   },
 ];
 
-export default routerData;
+export default routes;
