@@ -15,11 +15,7 @@ const Dropdown = (props) => {
         props.page === 'lodging' ? `  ${styles.dropdownLittle}` : `${styles.dropdown}`
       }`}
     >
-      <div
-        className={`${open && styles.active}`}
-        // href='#dropdown_fiabilite'
-        onClick={() => setOpen(!open)}
-      >
+      <div className={`${open && styles.active}`} onClick={() => setOpen(!open)}>
         {/* <div className={styles.dropdownContent}> */}
         <div
           className={`${
