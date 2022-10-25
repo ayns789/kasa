@@ -5,8 +5,6 @@ import Rating from '../Rating';
 import SlideShow from '../Slideshow';
 import styles from './index.module.css';
 import './index.module.css';
-import Navbar from '../Navbar';
-import Footer from '../Footer';
 
 const RenderLodging = (props) => {
   const { lodging } = props;
@@ -14,7 +12,6 @@ const RenderLodging = (props) => {
 
   return (
     <div>
-      <Navbar />
       <div className={styles.logement}>
         <SlideShow pictures={lodging.pictures} />
         <div className={styles.logementInfo}>
@@ -56,7 +53,6 @@ const RenderLodging = (props) => {
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   );
 };

@@ -1,6 +1,4 @@
 import * as React from 'react';
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
 import Banner from '../components/Banner';
 import BannerImg2 from '../assets/banner2.jpeg';
 import Dropdown from '../components/Dropdown';
@@ -13,7 +11,6 @@ const About = () => {
 
   return (
     <div>
-      <Navbar />
       <Banner img={BannerImg2} />
       <Dropdown
         title='Fiabilité'
@@ -31,7 +28,6 @@ const About = () => {
         title='Sécurité'
         description="La sécurité est la priorité de Kasa. Aussi bien pour nos hôtes que pour les voyageurs, chaque logement correspond aux critères de sécurité établis par nos services. En laissant une note aussi bien à l'hôte qu'au locataire, cela permet à nos équipes de vérifier que les standards sont bien respectés. Nous organisons également des ateliers sur la sécurité domestique pour nos hôtes."
       />
-      <Footer />
     </div>
   );
 };

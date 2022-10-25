@@ -3,6 +3,8 @@ import { BrowserRouter } from 'react-router-dom';
 import Router from './Router';
 import React, { useEffect, useState } from 'react';
 import { createContext } from 'react';
+import Footer from '../Footer';
+import Navbar from '../Navbar';
 
 const dataLodgings = [];
 export const LodgingContext = createContext(dataLodgings);
@@ -17,9 +19,12 @@ const App = () => {
 
   return (
     <BrowserRouter>
+      <Navbar />
+
       <LodgingContext.Provider value={lodgings}>
         <Router />
       </LodgingContext.Provider>
+      <Footer />
     </BrowserRouter>
   );
 };

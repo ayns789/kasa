@@ -13,6 +13,10 @@ body {
 a {
   text-decoration: none;
 }
+
+* {
+  font-family: Montserrat;
+}
 @media all and (max-width: 630px) {
   body {
     margin-right: 20px;
