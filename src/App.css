@@ -5,9 +5,6 @@ body {
   margin: 0 auto;
   margin-right: 50px;
   margin-left: 50px;
-  /* min-width: 505px; */
-  /* min-width: 450px; */
-  /* position: relative; */
 }
 
 a {
@@ -20,7 +17,7 @@ a {
 @media all and (max-width: 630px) {
   body {
     margin-right: 20px;
-  margin-left: 20px;
+    margin-left: 20px;
   }
 }
 

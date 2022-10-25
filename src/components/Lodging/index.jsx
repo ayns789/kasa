@@ -4,7 +4,7 @@ import List from '../List';
 import Rating from '../Rating';
 import SlideShow from '../Slideshow';
 import styles from './index.module.css';
-import './index.module.css';
+import stylesRat from '../Rating/index.module.css';
 
 const RenderLodging = (props) => {
   const { lodging } = props;
@@ -29,7 +29,7 @@ const RenderLodging = (props) => {
               </p>
               <img className={styles.hostPicture} src={lodging.host.picture} alt='Propriétaire' />
             </div>
-            <div className={styles.rating}>
+            <div className={stylesRat.rating}>
               <Rating rating={lodging.rating} />
             </div>
           </div>
