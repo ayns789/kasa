@@ -94,4 +94,15 @@ flex-direction: column;
   .dropdown {
     width: 100%;
   }
+  .title {
+    font-size: 20px;
+  }
+  .dropdownDescription2 {
+    font-size: 18px;
+    min-height: 150px;
+  }
+  .dropdownDescription {
+    font-size: 18px;
+    min-height: 150px;
+  }
 }

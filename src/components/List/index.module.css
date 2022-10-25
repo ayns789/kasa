@@ -12,3 +12,9 @@
     font-size: 24px;
     line-height: 24px;
   }
+  @media (max-width: 768px) {
+    .listString {
+      font-size: 18px;
+      line-height: 18px;
+    }
+  }

@@ -17,3 +17,9 @@
     font-family: Montserrat;
     font-weight: 500;
   }
+  @media (max-width: 768px) {
+    .footerContentCopyright {
+      margin-top: 2.5em;
+      font-size: 14px;
+    }
+  }
