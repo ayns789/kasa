@@ -14,6 +14,10 @@ const Home = () => {
     window.scrollTo(0, 0);
   }, []);
 
+  if (lodgings.length <= 0 || !lodgings) {
+    return <progress></progress>;
+  }
+
   return (
     <div className={styles.contentPage}>
       <Navbar />

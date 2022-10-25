@@ -24,7 +24,6 @@ const Lodging = () => {
 
   // pour patienter le chargement des data au chargement du module et éviter un bug
   if (lodgings.length <= 0 || !lodgings) {
-    // progress bar <Loader />
     return <progress></progress>;
   }
   //  Check si le logement existe, si le composant est chargé et a donc créé un array,

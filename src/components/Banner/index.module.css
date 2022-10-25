@@ -28,7 +28,7 @@
       left: 200px;
     }
     .imgBanner {
-      max-height: 15em;
+      max-height: 8em;
       object-fit: cover;
       object-position: -150% 50%;
       /* width: 250px; */
@@ -37,13 +37,23 @@
       /* height: 100%; */
     }
   }
-  @media all and (max-width: 540px) {
+  @media all and (max-width: 768px) {
+    .banner {
+      margin-top: 0;
+      margin-bottom: 1.5em;
+  }
+  .imgBanner {
+    border-radius: 10px;
+    max-height: 7em;
+  }
     .spanBanner {
-      position: fixed;
-      top: 28%;
-      width: 10rem;
-      font-size: 20px;
+      /* position: fixed; */
+      /* top: 48%; */
+      left: 45%;
+      width: 11rem;
+      font-size: 22px;
       /* left: 45%; */
+      line-height: 100%;
       margin-left: -1em;
     }
   }
