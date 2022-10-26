@@ -39,7 +39,7 @@ const RenderLodging = (props) => {
             <Dropdown
               title='Description'
               description={lodging.description}
-              open={true}
+              open={false}
               page='lodging'
             />
           </div>
@@ -47,7 +47,7 @@ const RenderLodging = (props) => {
             <Dropdown
               title='Équipements'
               description={<List list={lodging.equipments} />}
-              open={true}
+              open={false}
               page='lodging'
             />
           </div>
