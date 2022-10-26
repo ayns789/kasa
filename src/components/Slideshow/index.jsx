@@ -23,27 +23,26 @@ const SlideShow = (props) => {
   return (
     <div className={styles.logementImg}>
       <img className={styles.carousel} src={props.pictures[index]} alt='carousel' />
-
-      <span className={styles.btnReserverPrev}>
-        {props.pictures.length >= 2 ? (
+      {props.pictures.length >= 2 ? (
+        <span className={styles.btnReserverPrev}>
           <img
             className={styles.prev}
             src={ChevronImg}
             alt='précédent'
             onClick={() => OnChange('-')}
           />
-        ) : null}
-      </span>
-      <span className={styles.btnReserverNext}>
-        {props.pictures.length >= 2 ? (
+        </span>
+      ) : null}
+      {props.pictures.length >= 2 ? (
+        <span className={styles.btnReserverNext}>
           <img
             className={styles.next}
             src={ChevronImg}
             alt='suivant'
             onClick={() => OnChange('+')}
           />
-        ) : null}
-      </span>
+        </span>
+      ) : null}
 
       <span className={styles.countNumber}>
         <p>
