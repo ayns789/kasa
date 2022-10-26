@@ -11,14 +11,14 @@
   .btnReserverPrev {
     position: absolute;
     transform: rotate(180deg);
-    top: 13rem;
+    top: 10.5rem;
     left: 1.6rem;
     width: 47px;
     height: 80px;
   }
   .btnReserverNext {
     position: absolute;
-    top: 13rem;
+    top: 10.5rem;
     right: 1.6rem;
     width: 47px;
     height: 80px;
