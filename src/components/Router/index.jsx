@@ -20,7 +20,6 @@ const App = () => {
   return (
     <BrowserRouter>
       <Navbar />
-
       <LodgingContext.Provider value={lodgings}>
         <Router />
       </LodgingContext.Provider>

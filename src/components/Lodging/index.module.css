@@ -10,22 +10,14 @@
     justify-content: space-between;
     flex-wrap: wrap;
   }
-  /* .logementInfoTitle {
-    width: 100%;
-  } */
   .logementHost {
     display: flex;
     align-items: center;
     flex-direction: column;
-    /* justify-content: space-around; */
-    /* margin-top: 2rem; */
-    /* width: 100%; */
   }
   .logementHost .host {
     display: flex;
     align-items: center;
-    /* margin-left: 3rem; */
-    /* width: 100%; */
   }
   .logementTitle {
     color: #ff6060;
@@ -38,7 +30,6 @@
     align-items: center;
     justify-content: space-around;
     flex-direction: column;
-    /* margin-top: 1rem; */
   }
   .logementInfo .logementHost .host {
     display: flex;
@@ -63,62 +54,10 @@
     /* flex-wrap: wrap; */
     flex-direction: row;
     justify-content: space-between;
-    /* margin-bottom: 3rem; */
-    /* width: 48%; */
   }
-  /* .descEquip .dropLodging {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 48%;
-  } */
    .dropdownLodging {
     width: 48%; 
   }
-   /* .dropdownLodging .dropdownContent:nth-child(2) {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-  } */
-
-  /*
-  .descEquip .dropLodging .dropdownContent:nth-child(2) {
-    width: 48%;
-    margin-right: 2em;
-  } */
-
-  /* ///////////// */
-  /* .dropLodging   {
-    width: 48%;
-  } */
-  /* ///////////// */
-  /* .descEquip .dropdown .title {
-    color: #fff;
-    font-size: 24px;
-  } */
-  /* .descEquip .dropdown .dropdownRef .active img {
-    transform: rotate(180deg);
-  } */
-  /* .descEquip .dropdown .dropdownDescription {
-    background-color: #f6f6f6;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    color: #ff6060;
-    height: 75%;
-    margin-top: -35px;
-    min-height: 100px;
-    padding: 25px 10px 10px;
-    font-size: 18px;
-    margin-bottom: 2rem;
-  } */
-  /* .descEquip .dropdown .dropdownDescription:nth-child(2) {
-    width: 48%;
-  } */
-  /* .descEquip .listString {
-    list-style-type: none;
-    padding-bottom: 0.5rem;
-  } */
   
   @media (max-width: 1230px) {
     .logementInfo .logementHost {

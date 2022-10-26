@@ -1,8 +1,4 @@
-/* .descEquip .listString {
-    list-style-type: none;
-    padding-bottom: 0.5rem;
-  } */
-  .list {
+.list {
     margin-top: 0;
     padding: 0;
   }
