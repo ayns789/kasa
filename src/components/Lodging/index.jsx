@@ -1,8 +1,8 @@
-import Dropdown from '../Dropdown';
-import Tag from '../Tag';
-import List from '../List';
-import Rating from '../Rating';
-import SlideShow from '../Slideshow';
+import Dropdown from '../Dropdown/index.jsx';
+import Tag from '../Tag/index.jsx';
+import List from '../List/index.jsx';
+import Rating from '../Rating/index.jsx';
+import SlideShow from '../Slideshow/index.jsx';
 import styles from './index.module.css';
 import stylesRat from '../Rating/index.module.css';
 

@@ -1,7 +1,7 @@
 import * as React from 'react';
-import Banner from '../components/Banner';
+import Banner from '../components/Banner/index.jsx';
 import BannerImg2 from '../assets/banner2.jpeg';
-import Dropdown from '../components/Dropdown';
+import Dropdown from '../components/Dropdown/index.jsx';
 import { useEffect } from 'react';
 
 const About = () => {

@@ -1,7 +1,7 @@
-import About from '../../Pages/about';
-import Home from '../../Pages/home';
-import Lodging from '../../Pages/lodging';
-import Error from '../../Pages/error';
+import About from '../../Pages/about.jsx';
+import Home from '../../Pages/home.jsx';
+import Lodging from '../../Pages/lodging.jsx';
+import Error from '../../Pages/error.jsx';
 
 const routes = [
   {

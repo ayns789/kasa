@@ -1,5 +1,5 @@
 import { Route, Routes } from 'react-router-dom';
-import routes from './routes';
+import routes from './routes.js';
 
 const Router = () => {
   const pageRoutes = routes.map(({ path, title, element }) => {

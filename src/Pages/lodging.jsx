@@ -1,7 +1,7 @@
 import React, { useEffect, useMemo } from 'react';
 import { useParams } from 'react-router-dom';
-import RenderLodging from '../components/Lodging';
-import Redirection from '../components/Redirection';
+import RenderLodging from '../components/Lodging/index.jsx';
+import Redirection from '../components/Redirection/index.jsx';
 import { useContext } from 'react';
 import { LodgingContext } from '../components/Router/index.jsx';
 

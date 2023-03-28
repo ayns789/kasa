@@ -1,10 +1,10 @@
 import '../../App.css';
 import { BrowserRouter } from 'react-router-dom';
-import Router from './Router';
+import Router from './Router.jsx';
 import React, { useEffect, useState } from 'react';
 import { createContext } from 'react';
-import Footer from '../Footer';
-import Navbar from '../Navbar';
+import Footer from '../Footer/index.jsx';
+import Navbar from '../Navbar/index.jsx';
 
 const dataLodgings = [];
 export const LodgingContext = createContext(dataLodgings);

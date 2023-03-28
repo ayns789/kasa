@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './index.module.css';
-import Kasa from '../Logo';
+import Kasa from '../Logo/index.jsx';
 
 const Footer = () => {
   return (

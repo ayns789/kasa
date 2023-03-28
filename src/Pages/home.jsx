@@ -1,6 +1,6 @@
 // import * as React from 'react';
-import Banner from '../components/Banner';
-import Card from '../components/Card';
+import Banner from '../components/Banner/index.jsx';
+import Card from '../components/Card/index.jsx';
 import BannerImg from '../assets/imgBanner.jpg';
 import styles from '../components/Card/index.module.css';
 import { useContext, useEffect } from 'react';
